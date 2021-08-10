@@ -21,3 +21,20 @@ else if (color == 'megenta') {
 else {
     console.log('color is black');
 }
+
+switch (color) {
+    case 'blue':
+        console.log('color is blue');
+        break;
+    case 'green':
+        console.log('color is green');
+        break;
+    case 'yellow':
+        console.log('color is yellow');
+        break;
+    case 'red':
+        console.log('color is yellow');
+        break;
+    default 'black':
+        console.log('color is black');
+}
