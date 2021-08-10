@@ -15,4 +15,11 @@ console.log(computer);
 
 
 
-su
+// different way to set value of an object properties
+computer.price = 7000;
+computer['price'] = 2300;
+console.log(computer);
+var storageProperty = 'storage';
+computer[storageProperty] = '512gb';
+computer['Storage'] = '1tb';
+console.log(computer);
